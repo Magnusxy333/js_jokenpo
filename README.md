@@ -4,7 +4,7 @@ Aplicação web interativa desenvolvida em **JavaScript puro (Vanilla JS)**, **H
 
 ## 🕹️ Como Executar o Projeto
 
-Acesse esse link: https://magnusxy333.github.io/Jogo-de-Pedra-Papel-e-Tesoura-em-htlm-css-js/
+Acesse esse link: https://magnusxy333.github.io/js_jokenpo/
 
 1. Clone este repositório ou baixe os arquivos em sua máquina.
 2. Certifique-se de manter a pasta `images/` com os ícones correspondentes.
