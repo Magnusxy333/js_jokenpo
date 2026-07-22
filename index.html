@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissor</title>
+    <link rel="icon" href="images/logo.png">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="border">
+
+        <div>
+          <h1>Jogo de papel, pedra e tesoura</h1>
+        </div>
+
+        <div>
+          <button onclick="playGame('ROCK')" class="move-button">
+            <img src="images/rock-emoji.png" class="move-icon">
+          </button>
+          <button onclick="playGame('PAPER')" class="move-button">
+            <img src="images/paper-emoji.png" class="move-icon">
+          </button>
+          <button onclick="playGame('SCISSORS')" class="move-button">
+            <img src="images/scissors-emoji.png" class="move-icon">
+          </button>  
+        </div>
+
+        <h1 class="js-result result"></h1>
+        <h1 class="js-move move"></h1>
+        <h1 class="js-score score"></h1>
+
+        <div>
+          <button onclick="resetScore();" class="reset-button">Resetar pontuação</button>
+          <button onclick="autoPlay();" class="js-auto-play-button auto-play-button">Auto play</button>
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
